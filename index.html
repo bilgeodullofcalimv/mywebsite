@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>İnsan Dilinde ve Doğal Dilde Programlama</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+<h1>İnsan Dilinde ve Doğal Dilde Programlama</h1>
+<p>Yeni nesil yazılım geliştirme paradigması</p>
+<nav><span class="menu-toggle">☰ Menü</span>
+<a href="index.html">Ana Sayfa</a>
+<a href="proje.html">Proje</a>
+<a href="makale.html">Makale</a>
+<a href="video.html">Video</a>
+<a href="hakkimda.html">Hakkında</a>
+<a href="iletisim.html">İletişim</a>
+</nav>
+</header>
+<div class="container">
+<h2>Hoş Geldiniz</h2>
+<p>Bu web sitesi, "İnsan Dilinde ve Doğal Dilde Programlama" adlı yenilikçi yazılım geliştirme paradigmasını tanıtmak amacıyla hazırlanmıştır.</p>
+<p>Üst menüden proje detaylarına, makaleye, videolara ve iletişim bilgilerine ulaşabilirsiniz.</p>
+<!-- Telif Hakkı Belgesi Görseli -->
+<img alt="Telif Hakkı Belgesi" src="telif.jpg"/>
+</div>
+<footer>
+    © 2025 İnsan Dilinde ve Doğal Dilde Programlama | Tüm Hakları Saklıdır
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('nav ul');
+    toggle.addEventListener('click', function() {
+        menu.classList.toggle('active');
+    });
+});
+</script></body>
+</html>
